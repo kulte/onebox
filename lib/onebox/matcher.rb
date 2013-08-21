@@ -9,6 +9,7 @@ module Onebox
       when /example\.com/ then Engine::ExampleOnebox
       when /amazon\.com/ then Engine::AmazonOnebox
       when /flickr\.com/ then Engine::FlickrOnebox
+      when /hulu\.com/ then Engine::HuluOnebox
       when /qik\.com/ then Engine::QikOnebox
       when /stackexchange\.com/ then Engine::StackExchangeOnebox
       when /wikipedia\.com/ then Engine::WikipediaOnebox
